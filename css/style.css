@@ -1,0 +1,100 @@
+body {
+  background: url("../img/valais.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.main {
+  background-color: white;
+
+  width: 400px;
+  height: 500px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  text-align: center;
+  padding: 20px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  font-family: 'Roboto', sans-serif;
+}
+
+#equipe{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+#drapValais{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 8px;
+}
+
+#miguel {
+  height: 200px;
+  width: 200px;
+
+  border-radius: 50%;
+  border: 1px solid #888;
+}
+
+.user-information {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  padding: 20px 0;
+}
+
+.user-information div {
+  width: calc(100% / 3);
+}
+
+.details {
+  color: #888;
+}
+
+.add-button {
+  background-color: #e25f5f;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+
+  border: 0;
+
+  width: 56px;
+  height: 56px;
+
+  border-radius: 50%;
+
+  position: absolute;
+
+  top: 220px;
+  right: 115px;
+
+  outline: none;
+
+  transition: width 300ms, height 300ms, right 300ms, top 300ms, font-size 300ms;
+}
+
+#beerButton img{
+  width: 50px;
+  height: 50px;
+}
+
+.add-button:hover {
+  width: 60px;
+  height: 60px;
+  top: 220px;
+  right: 105px;
+}
